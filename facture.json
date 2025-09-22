@@ -1,0 +1,52 @@
+{
+  "Facture": {
+    "sequence": "FA-30662/2021",
+    "dateDebut": "2021-09-01 00:00:00",
+    "dateFin": "2021-10-01 00:00:00",
+    "dateFacturation": "2021-09-30 00:00:00",
+    "description": "Demande d'autorisation d'affichage publicitaire pour plaque signalisations aux agences de la CCCCC DR ANFA",
+    "refdmd": "30661/2021",
+    "demandeur": {
+      "name": "NNNN PPPPP",
+      "numTel": "0600000000",
+      "adresse": "",
+      "email": "",
+	  "ice":"",
+	  "rccin":""
+    },
+    "commandes": {
+      "tab": {
+        "ligneCmd": [
+          {
+            "ObjetComande":"0100282/2021/90100",
+            "modePaiement": "Virement bancaire",
+            "datePaiement": "2021-09-29 00:00:00",
+            "designation": "Demande d'autorisation d'affichage publicitaire pour plaque signalisations aux agences de la CCCCC DR ANFA",
+            "quantite": "11",
+            "unite": "",
+            "taxe": "275.0",
+            "prixUnitaire": "125.0",
+            "montantHT": "1375.0",
+            "taux": "20.0"
+          },
+          {
+            "ObjetComande":"0100282/2021/90100",
+            "modePaiement": "Virement bancaire",
+            "datePaiement": "2021-09-29 00:00:00",
+            "designation": "ffffffff",
+            "quantite": "0",
+            "unite": "",
+            "taxe": "0",
+            "prixUnitaire": "0",
+            "montantHT": "0",
+            "taux": "0"
+          }
+        ],
+        "totalHT": "1375.0",
+        "totaltaxe": "275.0"
+      },
+      "taxe": "275.0",
+      "totalTTC": "1650.0"
+    }
+  }
+}
